@@ -5,6 +5,61 @@
  }
 
 body {
+    background-color: #b9b7b7;
+}
+
+.oculto {
+    visibility: hidden;
+    display: none;
+}
+
+#gotham {
+    width: 90vw;
+    background-color: #000000;
+    color: #dddd00;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#btngotham {
+    width: 90vw;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+#metropolis {
+    width: 90vw;
+    background-color: #0004ff;
+    color: #dd0000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#btnmetropolis{
+    width: 90vw;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+#menu {
+    height: 5vh;
+    width: 100vw;
     background-image: linear-gradient(to right,#0000FF, #0000AA, #000000);
     background-attachment: fixed;
+}
+
+#titulo {
+    padding: 5px;
 }
