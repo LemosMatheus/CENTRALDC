@@ -53,6 +53,57 @@ body {
     border-radius: 20px;
 }
 
+#centralcity{
+    width: 90vw;
+    background-color: #fb5b5b;
+    color: #3434ff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#btncentralcity{
+    width: 90vw;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+#coastcity{
+    width: 90vw;
+    background-color: rgb(166, 244, 89);
+    color: rgb(1, 130, 1);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#btncoastcity{
+    width: 90vw;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+#menu {
+    height: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(to right,#0000FF, #0000AA, #000000);
+    background-attachment: fixed;
+}
+
+#titulo {
+    padding: 5px;
+}
+
 #menu {
     height: 5vh;
     width: 100vw;

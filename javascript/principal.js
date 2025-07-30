@@ -16,3 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById("corpometropolis").classList.toggle("oculto")
     })
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btncentralcity = document.getElementById("btncentralcity");
+
+    btncentralcity.addEventListener('click', () => {
+        document.getElementById("corpocentralcity").classList.toggle("oculto")
+    })
+})
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btncoastcity = document.getElementById("btncoastcity");
+
+    btncoastcity.addEventListener('click', () => {
+        document.getElementById("corpocoastcity").classList.toggle("oculto")
+    })
+})
