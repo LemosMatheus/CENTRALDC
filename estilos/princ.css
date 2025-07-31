@@ -5,10 +5,14 @@
  }
 
 body {
-    background-color: #b9b7b7;
+    background-image: url(../midia/dcbackground.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .oculto {
+    transition: 0.3s;
     visibility: hidden;
     display: none;
 }
@@ -28,6 +32,7 @@ body {
 }
 
 #btngotham {
+    transition: 0.3s;
     width: 90vw;
     height: 50px;
     border: none;
@@ -114,3 +119,17 @@ body {
 #titulo {
     padding: 5px;
 }
+
+button.card {
+    height: 200px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 8x;
+    background-color:white;
+    border: none;
+}
+
+button.card:hover {
+    background-color: #000000;
+}
+

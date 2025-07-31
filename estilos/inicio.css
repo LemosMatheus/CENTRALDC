@@ -10,6 +10,7 @@ body {
      font-family: Arial, sans-serif;
     background-size: cover;
     height: 100vh;
+    background-image: url(../midia/dcbackground.webp);
 }
 .container {
     position: absolute;
