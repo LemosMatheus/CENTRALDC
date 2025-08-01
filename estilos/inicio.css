@@ -6,8 +6,22 @@
     box-sizing: border-box;
  }
 
+ @font-face {
+    font-family: 'Legion';
+    src: url(../midia/fonts/LegioSabinaOutline-gxKMR.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Legio';
+    src: url(../midia/fonts/LegioSabinaCondensed-aYgYx.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
 body {
-     font-family: Arial, sans-serif;
+    font-family: 'Legio', sans-serif;
     background-size: cover;
     height: 100vh;
     background-image: url(../midia/dcbackground.webp);
@@ -32,6 +46,7 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    font-family: 'Legio', sans-serif;
 }
 button {
     background-color: #d9534f;
@@ -41,6 +56,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
+    font-family: 'Legio', sans-serif;
 }
 h2 {
     margin-bottom: 10px;

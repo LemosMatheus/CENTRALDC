@@ -1,5 +1,5 @@
 let nome = localStorage.getItem("armazem")
-document.getElementById("titulo").innerText = `Olá, ${nome}`
+document.getElementById("titulo").innerText = `Oi, ${nome}`
 
 document.addEventListener('DOMContentLoaded', () => {
     const btngotham = document.getElementById("btngotham");
