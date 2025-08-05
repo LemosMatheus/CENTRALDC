@@ -1,0 +1,106 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ @font-face {
+    font-family: 'DC';
+    src: url(../midia/fonts/DcFandom-orr4.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+ body {
+    background-image: url(../midia/Trinity_War.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+ }
+
+ #menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    background-image: linear-gradient(to right,#0000FF, #0000AA, #000000);
+    background-attachment: fixed;
+    font-family: 'DC', sans-serif;
+}
+
+nav{
+    width: 60vw;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+#titulo, a {
+    margin: 25px;
+}
+a {
+    font-size: 2rem;
+    color: #0000FF;
+}
+
+#Mariana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 80vw;
+    background-color: #386FA4;
+    border-radius: 25px;
+}
+
+#Matheus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 80vw;
+    background-color: #556F6F;
+    border-radius: 25px;
+}
+
+#Eduarda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 80vw;
+    background-color: #A5D8FF;
+    border-radius: 25px;
+}
+
+button {
+    margin: 5vw;
+    height: 40vh;
+    width: 15vw;
+    overflow: hidden;
+}
+
+.texto {
+    margin: 5vw;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+}
