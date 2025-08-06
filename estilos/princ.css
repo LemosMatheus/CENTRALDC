@@ -11,180 +11,89 @@
     font-style: normal;
  }
 
- @font-face {
-    font-family: 'Gotham';
-    src: url(../midia/fonts/GothamWomans-B8md.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
- }
 
- @font-face {
-    font-family: 'Superman';
-    src: url(../midia/fonts/NewSuperman-Pzd7.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
- }
-
-  @font-face {
-    font-family: 'Flash';
-    src: url(../midia/fonts/Elements.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
- }
- 
-  @font-face {
-    font-family: 'Lanterna';
-    src: url(../midia/fonts/GREEN_LANTERN_MOVIE.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
- }
-
-
-body {
-    background-image: url(../midia/dcbackground.webp);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-main {
-    margin-top: 5vh;
-    width: 100vw;
+ main {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color: #3d3b3ba1;
-}
-
-.oculto {
-    transition: 0.3s;
-    visibility: hidden;
-    display: none;
-}
-
-#gotham {
+    height: 100%;
     width: 100vw;
-    background-color: #000000;
-    color: #dddd00;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family: 'DC', sans-serif;
+    background-color: #3333AA;
+ }
+
+ #menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     text-align: center;
-    border-radius: 20px;
-}
-
-#btngotham {
-    transition: 0.3s;
-    width: 100vw;
-    height: 50px;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Gotham', sans-serif;
-    font-size: 2rem;
-    overflow: hidden;
-    text-align: center;
-}
-#metropolis {
-    width: 100vw;
-    background-color: #0004ff;
-    color: #dd0000;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-#btnmetropolis{
-    width: 100vw;
-    height: 50px;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Superman', sans-serif;
-    font-size: 2rem;
-    overflow: hidden;
-}
-
-#centralcity{
-    width: 100vw;
-    background-color: #fb5b5b;
-    color: #3434ff;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-#btncentralcity{
-    width: 100vw;
-    height: 50px;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Flash', sans-serif;
-    font-size: 2rem;
-    overflow: hidden;
-}
-
-#coastcity{
-    width: 100vw;
-    background-color: rgb(166, 244, 89);
-    color: rgb(1, 130, 1);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-#btncoastcity{
-    width: 100vw;
-    height: 50px;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Lanterna', sans-serif;
-    font-size: 2rem;
-    overflow: hidden;
-}
-
-#menu {
-    height: 10vh;
+    height: 15vh;
     width: 100vw;
     background-image: linear-gradient(to right,#0000FF, #0000AA, #000000);
     background-attachment: fixed;
     font-family: 'DC', sans-serif;
 }
 
-#titulo {
-    padding: 25px;
+nav{
+    width: 60vw;
+    display: flex;
+    gap: 20px;
+    text-align: center;
 }
 
+#titulo, a {
+    margin: 25px;
+}
+a {
+    font-size: 2rem;
+    color: #0000FF;
+}
 
-button.card {
-    transition: 0,3s ease;
+#banners {
+    height: 20vw;
+    width: 100vw;
+    background-image: url(../midia/imagens/DcBanner.webp);
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: #DDDDDD;
+    margin-right: 90vw;   
+    font-family: 'DC', sans-serif;
+    font-size: 2rem;
+    margin: 40px;
+}
+
+section {
+    height: 100%;
+    width: 100vw;
+    border-color: #000000;
+    background-color: #1111AA;
+    overflow: hidden;
+}
+
+button.pers {
+    margin: 40px;
     height: 200px;
-    width: 100px;
+    width: 180px;
     border-radius: 20px;
-    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border: none;
 }
 
-button.card:hover {
-    transition: 0.3s;
-    perspective: 1000px;
-    transform: scale(1.2);
-    transform-origin: center;
+#batman {
+    background-image: url(../midia/personagens/1.png);
 }
 
-#flash.card {
-    background-image: url(../midia/imagens/Design\ sem\ nome.png);
-    background-attachment: local;
-    overflow: auto;
+#superman {
+    background-image: url(../midia/personagens/2.png);
+}
+
+#flash {
+    background-image: url(../midia/personagens/12.png);
 }
