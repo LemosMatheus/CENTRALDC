@@ -24,7 +24,7 @@
 body {
   font-family: "Bebas Neue", sans-serif;
   background-color: #ffffff;
-  color: #222;
+  color: #4786aa;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -86,6 +86,8 @@ table {
   border-collapse: collapse;
   margin-bottom: 30px;
   border-color: #000000;
+  margin: 100px;
+  color: #F7F7F7;
 }
 
 th,
@@ -93,25 +95,31 @@ td {
   border: 1px solid #F7F7F7;
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  background-color: #007BFF;
 }
 
 th {
-  background-color: rgb(110, 110, 200);
+  background-color: #0000AA;
   font-size: 1.2rem;
 }
 
 ul {
-  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 h1, h2 {
-  margin: 20px;
+  margin: 50px;
+  color: #E6E6E6;
 }
 
 #img {
   height: 500px;
   width: 400px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000;
 }
 
 section {
@@ -126,6 +134,7 @@ section {
 
 li {
   font-size: 2rem;
+  margin: 10px;
 }
 
 iframe {

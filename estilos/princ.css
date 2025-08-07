@@ -182,11 +182,11 @@ button:hover {
 }
 
 #roschach {
-    background-image: url(../midia/personagens/33.png);
+    background-image: url(../midia/personagens/34.png);
 }
 
 #vingador-fantasma {
-    background-image: url(../midia/personagens/34.png);
+    background-image: url(../midia/personagens/33.png);
 }
 
 .informacoes {
@@ -197,4 +197,36 @@ button:hover {
     justify-content: center;
     background-color: rgb( 55, 25, 113);
     font-family: 'DC', sans-serif;
+}
+
+#Anti-Herois {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 42, 201);
+
+}
+
+.btn {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#Viloes {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 42, 201);
+
+}
+
+#Herois {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 42, 201);
+
+}
+
+.oculto {
+    display: none;
 }

@@ -24,32 +24,36 @@ body {
     font-family: 'Legio', sans-serif;
     background-size: cover;
     height: 100vh;
-    background-image: url(../midia/dcbackground.webp);
+    background-image: url(../midia/imagens/Design\ sem\ nome.png);
 }
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(173, 216, 230, 0.95);
+    background-color: rgb(33, 44, 160);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 300px;
+    width: 40vw;
+    height: 60vh;
     box-shadow:  10px 10px 15px rgba(0,0,0,0.5);
     border: none;
 }
 input[type="text"] {
     width: 90%;
+    height: 5vh;
     padding: 10px;
-    margin: 10px 0;
+    margin: 50px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     font-family: 'Legio', sans-serif;
+    background-color: #323232;
+    color: #F7F7F7;
 }
 button {
-    background-color: #d9534f;
+    background-color: #085caa;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -57,14 +61,28 @@ button {
     cursor: pointer;
     transition: 0.3s;
     font-family: 'Legio', sans-serif;
+    height: 60px;
+    width: 20vw;
+    font-size: 2rem;
 }
 h2 {
-    margin-bottom: 10px;
+    margin: 50px;
+    font-size: 3rem;
 }
 
 button:hover {
     transition: 0.3s;
     transform: scale(1.2);
-    background-color: black;
-    color: #DDDD00;
+    background-image: url(../midia/imagens/DC\ button.png);
+    overflow: hidden;
+    background-size: auto;
+    color: #32323202;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+p, h2 {
+    color: #F7F7F7;
 }

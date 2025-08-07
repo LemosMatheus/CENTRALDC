@@ -93,9 +93,11 @@ a {
 
 button {
     margin: 5vw;
-    height: 40vh;
-    width: 15vw;
+    height: 450px;
+    width: 380px;
     overflow: hidden;
+    border-radius: 25px;
+    border: none;
 }
 
 .texto {
@@ -103,4 +105,12 @@ button {
     font-size: 2rem;
     font-family: 'Bebas Neue', sans-serif;
     padding: 10px;
+}
+
+#btnMatheus {
+    background-image: url(../midia/imagens/Matheus.png);
+}
+
+#btnMary {
+    background-image: url(../midia/imagens/Mary.png);
 }

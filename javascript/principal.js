@@ -1,6 +1,52 @@
 let nome = localStorage.getItem("armazem")
 document.getElementById("titulo").innerText = `Oi, ${nome}`
 
+const btnHeroi = document.getElementById('btnheroi');
+const btnViloes = document.getElementById('btnvilao');
+const btnAnti_Herois = document.getElementById('btnanti');
+
+
+const img1 = '../midia/imagens/chevron_forward_60dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png';
+const img2 = '../midia/imagens/stat_minus_1_60dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png';
+
+btnHeroi.addEventListener('click', () => {
+  if (btnHeroi.getAttribute('src') === img1) {
+    btnHeroi.src = img2;
+  } else {
+    btnHeroi.src = img1;
+  }
+  document.getElementById('hero').classList.toggle('oculto')
+});
+
+btnViloes.addEventListener('click', () => {
+  if (btnViloes.getAttribute('src') === img1) {
+    btnViloes.src = img2;
+  } else {
+    btnViloes.src = img1;
+  }
+  document.getElementById('villan').classList.toggle('oculto')
+});
+
+btnAnti_Herois.addEventListener('click', () => {
+  if (btnAnti_Herois.getAttribute('src') === img1) {
+    btnAnti_Herois.src = img2;
+  } else {
+    btnAnti_Herois.src = img1;
+  }
+  document.getElementById('antheros').classList.toggle('oculto')
+});
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const btnBatman = document.getElementById('batman')
     const btnSuperman = document.getElementById('superman')
@@ -563,7 +609,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             arqui_inimigo: "Ozymandias (Adrian Veidt)",
             primeira_aparicao: "Watchmen #1 (setembro de 1986)",
-            imagem: "../midia/personagens/33.png",
+            imagem: "../midia/personagens/34.png",
             video: "https://www.youtube.com/embed/7Q4P96iN1D8?si=P-xFioC_d5cHVOql" 
         };
 
@@ -611,7 +657,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             arqui_inimigo: "Espectro",
             primeira_aparicao: "More Fun Comics #52 (fevereiro de 1940)",
-            imagem: "../midia/personagens/34.png",
+            imagem: "../midia/personagens/33.png",
             video: "https://www.youtube.com/embed/qtNtPNs4i8c?si=v4-xmWGXPRAc46fw" 
         };
 
