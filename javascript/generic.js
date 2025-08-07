@@ -23,3 +23,5 @@ document.getElementById('afiliações').innerText = perso.afiliacoes;
 document.getElementById('Arqui-Inimigos').innerText = perso.arqui_inimigo
 
 document.querySelector('img').src = perso.imagem
+
+document.querySelector('iframe').src = perso.video

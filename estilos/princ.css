@@ -42,12 +42,13 @@ nav{
     text-align: center;
 }
 
-#titulo, a {
+#titulo{
     margin: 25px;
 }
 a {
     font-size: 2rem;
-    color: #0000FF;
+    color: #04041a;
+    margin: 100px;
 }
 
 #banners {
@@ -168,7 +169,7 @@ button:hover {
     background-image: url(../midia/personagens/20.png);
 }
 
-#constatine {
+#constantine {
     background-image: url(../midia/personagens/30.png);
 }
 
@@ -186,4 +187,14 @@ button:hover {
 
 #vingador-fantasma {
     background-image: url(../midia/personagens/34.png);
+}
+
+.informacoes {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb( 55, 25, 113);
+    font-family: 'DC', sans-serif;
 }

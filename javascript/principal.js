@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Coringa",
             primeira_aparicao: "Detective Comics #27 (maio de 1939)",
             imagem: "../midia/personagens/1.png",
+            video: "https://www.youtube.com/embed/QZlvIbLajQU?si=IQLAoBBtqZb_yBGU",
         }
 
         localStorage.setItem('personagem', JSON.stringify(batman))
@@ -72,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 arqui_inimigo: "Lex Luthor",
                 primeira_aparicao: "Action Comics #1 (abril de 1938)",
                 imagem: "../midia/personagens/2.png",
+                video: "https://www.youtube.com/embed/UEG-NPkIGEo?si=TZTjFbmYvTEPloSy",
             };
 
         localStorage.setItem('personagem', JSON.stringify(superman))
@@ -95,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Flash Reverso (Eobard Thawne)",
             primeira_aparicao: "Showcase #4 (outubro de 1956)",
             imagem: "../midia/personagens/12.png",
-
+            video: "https://www.youtube.com/embed/j9CD6eITQes?si=sFWi1Elu9duXxEmz",
         };
 
         localStorage.setItem('personagem', JSON.stringify(flash))
@@ -120,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Cheetah (Mulher-Leopardo)",
             primeira_aparicao: "All Star Comics #8 (dezembro de 1941)",
             imagem: "../midia/personagens/10.png",
+            video: "https://www.youtube.com/embed/fnwVEM6jAxA?si=GHckI_zJlomawAct",
 
 
         };
@@ -146,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Sinestro",
             primeira_aparicao: "Showcase #22 (outubro de 1959)",
             imagem: "../midia/personagens/14.png",
+            video: "https://www.youtube.com/embed/jebGKyB1B9w?si=eu96dFOKVzBbz-8y",
         };
 
         localStorage.setItem('personagem', JSON.stringify(lanternaVerde))
@@ -170,6 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Arraia Negra",
             primeira_aparicao: "More Fun Comics #73 (novembro de 1941)",
             imagem: "../midia/personagens/16.png",
+            video: "https://www.youtube.com/embed/TRpycXBoK6U?si=Ia52_DP-y-7FctOy",
         };
 
         localStorage.setItem('personagem', JSON.stringify(aquaman))
@@ -193,6 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Merlyn (Arthur King)",
             primeira_aparicao: "More Fun Comics #73 (novembro de 1941)",
             imagem: "../midia/personagens/15.png",
+            video: "https://www.youtube.com/embed/PJ5cX3kwCcg?si=1NlK3xrUgDBJSyz6",
         };
 
         localStorage.setItem('personagem', JSON.stringify(arqueiroVerde))
@@ -217,6 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arqui_inimigo: "Grid",
             primeira_aparicao: "DC Comics Presents #26 (outubro de 1980)",
             imagem: "../midia/personagens/17.png",
+            video: "https://www.youtube.com/embed/wMFuQj3Alfg?si=2d0qUJEPdnbOC9UY",
         };
 
         localStorage.setItem('personagem', JSON.stringify(ciborg))
@@ -239,7 +246,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Sociedade Secreta de Super Vilões"
             ],
             arqui_inimigo: "Liga da Justiça (principalmente Superman)",
-            primeira_aparicao: "Superman's Pal Jimmy Olsen #134 (dezembro de 1970)"
+            primeira_aparicao: "Superman's Pal Jimmy Olsen #134 (dezembro de 1970)",
+            imagem: "../midia/personagens/4.png",
+            video: "https://www.youtube.com/embed/rAQyogh6z_4?si=l2c4lw8Gza1LGvqR",
         };
 
         localStorage.setItem('personagem', JSON.stringify(darkseid))
@@ -261,7 +270,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Panteão Grego"
             ],
             arqui_inimigo: "Mulher-Maravilha",
-            primeira_aparicao: "Wonder Woman #1 (junho de 1942)"
+            primeira_aparicao: "Wonder Woman #1 (junho de 1942)",
+            imagem: "../midia/personagens/6.png",
+            video: "https://www.youtube.com/embed/MTZjXVMa4ZY?si=Wj6uQ_Hpb0vNib3b",
         };
 
         localStorage.setItem('personagem', JSON.stringify(ares))
@@ -283,7 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Injustiça Ilimitada"
             ],
             arqui_inimigo: "Batman",
-            primeira_aparicao: "Batman #1 (primavera de 1940)"
+            primeira_aparicao: "Batman #1 (primavera de 1940)",
+            imagem: "../midia/personagens/9.png",
+            video: "https://www.youtube.com/embed/sx1WlJyiEa8?si=xNXrWR891NqgeaQF",
         };
 
         localStorage.setItem('personagem', JSON.stringify(coringa))
@@ -305,7 +318,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Legião do Mal"
             ],
             arqui_inimigo: "Flash (Barry Allen)",
-            primeira_aparicao: "The Flash #139 (setembro de 1963)"
+            primeira_aparicao: "The Flash #139 (setembro de 1963)",
+            imagem: "../midia/personagens/7.png",
+            video: "https://www.youtube.com/embed/A7ZFc_Iujw0?si=hBiWimuJFsKaCdVp",
         };
 
         localStorage.setItem('personagem', JSON.stringify(flashReverso))
@@ -327,7 +342,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Os Cavaleiros das Trevas"
             ],
             arqui_inimigo: "Flash (Barry Allen)",
-            primeira_aparicao: "Dark Days: The Casting #1 (julho de 2017)"
+            primeira_aparicao: "Dark Days: The Casting #1 (julho de 2017)",
+            imagem: "../midia/personagens/8.png",
+            video: "https://www.youtube.com/embed/KVOI8iF3dME?si=9vcCp8vrY1nQzqR0",
         };
 
         localStorage.setItem('personagem', JSON.stringify(redDeath))
@@ -350,7 +367,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Sociedade Secreta de Super Vilões"
             ],
             arqui_inimigo: "Superman",
-            primeira_aparicao: "Action Comics #23 (abril de 1940)"
+            primeira_aparicao: "Action Comics #23 (abril de 1940)",
+            imagem: "../midia/personagens/18.png",
+            video: "https://www.youtube.com/embed/fs8MH9DeSM4?si=uLA7VeLgBFQ0y81u",
         };
 
         localStorage.setItem('personagem', JSON.stringify(lexLuthor))
@@ -373,7 +392,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Legião do Mal"
             ],
             arqui_inimigo: "Lanterna Verde (Hal Jordan)",
-            primeira_aparicao: "Green Lantern #7 (julho-agosto de 1961)"
+            primeira_aparicao: "Green Lantern #7 (julho-agosto de 1961)",
+            imagem: "../midia/personagens/19.png",
+            video: "https://www.youtube.com/embed/5cOy7rPBdr0?si=ICIRwiP8jiOxdIY0",
         };
 
         localStorage.setItem('personagem', JSON.stringify(sinestro))
@@ -395,7 +416,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Sociedade Secreta de Super Vilões"
             ],
             arqui_inimigo: "Jovens Titãs",
-            primeira_aparicao: "The New Teen Titans #2 (dezembro de 1980)"
+            primeira_aparicao: "The New Teen Titans #2 (dezembro de 1980)",
+            imagem: "../midia/personagens/20.png",
+            video: "https://www.youtube.com/embed/1KhOMK3ghaw?si=a_AxktFaVEh8p8vZ",
         };
 
         localStorage.setItem('personagem', JSON.stringify(exterminador))
@@ -417,7 +440,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Fora da lei"
             ],
             arqui_inimigo: "Coringa",
-            primeira_aparicao: "Batman #357 (março de 1983, como Jason Todd) e Batman: Under the Hood #1 (2005, como Capuz Vermelho)"
+            primeira_aparicao: "Batman #357 (março de 1983, como Jason Todd) e Batman: Under the Hood #1 (2005, como Capuz Vermelho)",
+            imagem: "../midia/personagens/3.png",
+            video: "https://www.youtube.com/embed/5Tu3KUlru1Q?si=vROddwQgEbnYbBlZ",
         };
 
         localStorage.setItem('personagem', JSON.stringify(capuzVermelho))
@@ -440,7 +465,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Demonios Três"
             ],
             arqui_inimigo: "Morgaine Le Fey",
-            primeira_aparicao: "The Demon #1 (agosto de 1972)"
+            primeira_aparicao: "The Demon #1 (agosto de 1972)",
+            imagem: "../midia/personagens/11.png",
+            video: "https://www.youtube.com/embed/ttcr12k2_3s?si=k74rXuw25WV5Py-r",
         };
 
         localStorage.setItem('personagem', JSON.stringify(etrigan))
@@ -462,7 +489,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Nenhum (age sozinho)"
             ],
             arqui_inimigo: "Superman",
-            primeira_aparicao: "Omega Men #3 (junho de 1983)"
+            primeira_aparicao: "Omega Men #3 (junho de 1983)",
+            imagem: "../midia/personagens/5.png",
+            video: "https://www.youtube.com/embed/00tJG0Mb9C4?si=UIAFasGVCYgQN6il",
         };
 
         localStorage.setItem('personagem', JSON.stringify(lobo))
@@ -484,7 +513,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Liga da Justiça Sombria"
             ],
             arqui_inimigo: "Neron",
-            primeira_aparicao: "The Saga of the Swamp Thing #37 (junho de 1985)"
+            primeira_aparicao: "The Saga of the Swamp Thing #37 (junho de 1985)",
+            imagem: "../midia/personagens/30.png",
+            video: "https://www.youtube.com/embed/aVzCdO89X1E?si=y4ANQ7Sonx4gaAxC",
         };
 
         localStorage.setItem('personagem', JSON.stringify(constantine))
@@ -507,7 +538,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Sociedade da Justiça da América"
             ],
             arqui_inimigo: "Adão Negro (em algumas versões) / Hath-Set",
-            primeira_aparicao: "Flash Comics #1 (janeiro de 1940)"
+            primeira_aparicao: "Flash Comics #1 (janeiro de 1940)",
+            imagem: "../midia/personagens/31.png",
+            video: "https://www.youtube.com/embed/S8uP4RYlvrU?si=KvpbwPwf5a5OtInw"
         };
 
         localStorage.setItem('personagem', JSON.stringify(gaviaoNegro))
@@ -529,7 +562,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Os 'Minutemen' (anteriormente)"
             ],
             arqui_inimigo: "Ozymandias (Adrian Veidt)",
-            primeira_aparicao: "Watchmen #1 (setembro de 1986)"
+            primeira_aparicao: "Watchmen #1 (setembro de 1986)",
+            imagem: "../midia/personagens/33.png",
+            video: "https://www.youtube.com/embed/7Q4P96iN1D8?si=P-xFioC_d5cHVOql" 
         };
 
         localStorage.setItem('personagem', JSON.stringify(rorschach))
@@ -551,7 +586,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Nenhuma (age sozinha)"
             ],
             arqui_inimigo: "Batman (relação amor/ódio)",
-            primeira_aparicao: "Batman #1 (primavera de 1940)"
+            primeira_aparicao: "Batman #1 (primavera de 1940)",
+            imagem: "../midia/personagens/32.png",
+            video: "https://www.youtube.com/embed/TgHuDcmKqIc?si=XD_MjleToh2f1mUs" 
         };
 
         localStorage.setItem('personagem', JSON.stringify(mulherGato))
@@ -573,7 +610,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Nenhuma (age como agente de Deus)"
             ],
             arqui_inimigo: "Espectro",
-            primeira_aparicao: "More Fun Comics #52 (fevereiro de 1940)"
+            primeira_aparicao: "More Fun Comics #52 (fevereiro de 1940)",
+            imagem: "../midia/personagens/34.png",
+            video: "https://www.youtube.com/embed/qtNtPNs4i8c?si=v4-xmWGXPRAc46fw" 
         };
 
         localStorage.setItem('personagem', JSON.stringify(vingadorFantasma))
