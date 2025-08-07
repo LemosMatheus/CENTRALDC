@@ -82,8 +82,14 @@ button.pers {
     width: 180px;
     border-radius: 20px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
 }
 
 #batman {
@@ -96,4 +102,88 @@ button.pers {
 
 #flash {
     background-image: url(../midia/personagens/12.png);
+}
+
+#maravilha {
+    background-image: url(../midia/personagens/10.png);
+}
+
+#dark {
+    background-image: url(../midia/personagens/4.png);
+}
+
+#ares {
+    background-image: url(../midia/personagens/6.png);
+}
+
+#coringa {
+    background-image: url(../midia/personagens/9.png);
+}
+
+#flash-reverso {
+    background-image: url(../midia/personagens/7.png);
+}
+
+#red-death {
+    background-image: url(../midia/personagens/8.png);
+}
+
+#capuz {
+    background-image: url(../midia/personagens/3.png);
+}
+
+#etrigan {
+    background-image: url(../midia/personagens/11.png);
+}
+
+#lobo {
+    background-image: url(../midia/personagens/5.png);
+}
+
+#lanterna {
+    background-image: url(../midia/personagens/14.png);
+}
+
+#arqueiro {
+    background-image: url(../midia/personagens/15.png);
+}
+
+#aquaman {
+    background-image: url(../midia/personagens/16.png);
+}
+
+#ciborg {
+    background-image: url(../midia/personagens/17.png);
+}
+
+#lex {
+    background-image: url(../midia/personagens/18.png);
+}
+
+#sinestro {
+    background-image: url(../midia/personagens/19.png);
+}
+
+#exterminador {
+    background-image: url(../midia/personagens/20.png);
+}
+
+#constatine {
+    background-image: url(../midia/personagens/30.png);
+}
+
+#gaviao {
+    background-image: url(../midia/personagens/31.png);
+}
+
+#mulher-gato {
+    background-image: url(../midia/personagens/32.png);
+}
+
+#roschach {
+    background-image: url(../midia/personagens/33.png);
+}
+
+#vingador-fantasma {
+    background-image: url(../midia/personagens/34.png);
 }
